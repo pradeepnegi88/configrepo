@@ -1,0 +1,15 @@
+app:
+    greeting: congiguration Hello
+    message: ${app.greeting} congiguration Pradeep Negi
+    list: item1,item2,item3
+    keyvalue : "{congiguration name:'congiguration value',1:'2'} "
+
+
+db:
+   name: congiguration databasename
+   host: "congiguration 122.22.2.20"
+   port: 1111
+management.endpoints.web.exposure.include: "*"
+spring:
+  profiles:
+    active: test
