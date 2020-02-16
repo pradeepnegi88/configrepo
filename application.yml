@@ -2,7 +2,7 @@ app:
     greeting: congiguration Hello
     message: ${app.greeting} congiguration Pradeep Negi
     list: item1,item2,item3
-    keyvalue : "{congiguration name:'congiguration value',1:'2'} "
+    keyvalue : "{congiguration_name:'congiguration value',1:'2'} "
 
 
 db:
