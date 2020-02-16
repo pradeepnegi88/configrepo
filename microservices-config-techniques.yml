@@ -1,0 +1,15 @@
+app:
+    greeting: microservices-config-techniques
+    message: ${app.greeting} microservices-config-techniques Pradeep Negi
+    list: item1,item2,item3
+    keyvalue : "{congiguration_name:'microservices-config-techniques value',1:'2'} "
+
+
+db:
+   name: microservices-config-techniques databasename
+   host: "microservices-config-techniques 122.22.2.20"
+   port: 1111
+management.endpoints.web.exposure.include: "*"
+spring:
+  profiles:
+    active: test
